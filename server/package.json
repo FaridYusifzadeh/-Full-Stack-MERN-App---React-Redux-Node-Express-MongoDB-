@@ -1,20 +1,18 @@
 {
-  "name": "server",
+  "name": "mern-stack-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "index.js"
   },
-  "keywords": [],
   "author": "Farid Yusifzadeh https://www.linkedin.com/in/farid-yusifzadeh-434177183/",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
-    "goose": "0.0.3",
-    "mon": "0.0.8",
-    "nodemon": "^2.0.6"
+    "express": "^4.17.1",
+    "mongoose": "^5.9.29"
   }
 }
