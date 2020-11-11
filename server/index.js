@@ -18,7 +18,7 @@ const CONNECTION_URL = 'mongodb+srv://farid:123456123456@@cluster0.5rojl.mongodb
 const PORT = process.env.PORT|| 5000;
 
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
-  .then(() => app.listen(PORT, () => console.log(`Server Running on Port: http://localhost:${PORT}`)))
+  .then(() => app.listen(PORT, () => console.log(`Server Running on Port:${PORT}`)))
   .catch((error) => console.log(`${error} did not connect`));
 
 mongoose.set('useFindAndModify', false);
